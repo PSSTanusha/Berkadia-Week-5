@@ -7,7 +7,20 @@ let middleware=(req,res,next)=>{
 }
 
 app.get('/',middleware,(req,res,next)=>{
-      console.log('executed');
+      res.send('executed');
 });
 
 app.listen(4000);
+
+/*
+on console
+
+output:
+Middleware is under execution
+
+on browser
+
+output:
+executed
+
+*/
