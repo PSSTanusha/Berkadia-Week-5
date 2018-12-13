@@ -15,3 +15,13 @@ router.all('/',(req,res)=>{
 app.use('/',router);
 
 app.listen(4000);
+
+/*
+output on console:
+Request URL: /
+
+
+output on browser:
+routerlevel Middleware
+
+*/
