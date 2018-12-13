@@ -5,10 +5,11 @@
 or technical features. It has single build system which build entire application and/or dependency. It also has single 
 executable or deployable binary.
 
-   Microservice architecture is an approach of building large enterprise application with multiple small unit called service, 
-each service develop, deploy and test individually. Each service intercommunicate with a common communication protocol like 
-REST web service with JSON. Each service run individually either in single machine or different machine but they execute its 
-own separate process. Each service may have own database or storage system or they can share common database or storage system. Microservice is all about distribute or break application in small chunks.
+   Microservice architecture is an approach of building large enterprise application with multiple small unit called 
+service, each service develop, deploy and test individually. Each service intercommunicate with a common communication 
+protocol like REST web service with JSON. Each service run individually either in single machine or different machine 
+but they execute its own separate process. Each service may have own database or storage system or they can share 
+common database or storage system. Microservice is all about distribute or break application in small chunks.
 
 Difficulties with monolithic application, when it grow  
 1.Large monolithic code base makes complicated to understand, especially for new developer
@@ -28,4 +29,6 @@ Privilege with Microservice architecture, when it grow
 (for e.g: Jenkins, Hudson, bamboo etc..). The productivity of a new team member will be quick enough.
 6.Microservice allows you to take advantage of emerging and latest technologies (framework, programming language, 
 programming practice, etc.).
-Microservice is easy to scale based on demand. In a nutshell, monolithic vs microservice architecture is like elephant vs ant approach. What you wants to build a giant system like elephant or army of ant, small, fast and effective.
+7.Microservice is easy to scale based on demand. In a nutshell, monolithic vs microservice architecture is 
+like elephant vs ant approach. What you wants to build a giant system like elephant or army of ant, small, 
+fast and effective.
