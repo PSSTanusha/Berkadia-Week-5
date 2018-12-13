@@ -1,0 +1,26 @@
+table{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,th{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.evenrow{
+    background-color:lightgreen;
+}
+
+.oddrow{
+    background-color:gray;
+}
+
+.firstrow{
+    background-color: blue;
+}
+
+.lastrow{
+    background-color:red;
+}

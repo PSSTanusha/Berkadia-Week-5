@@ -1,0 +1,19 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <table>
+    <tr>
+      <th>S.NO.</th>
+      <th> Country</th>
+      <th>Currency</th>
+    </tr>
+    <tr *ngFor="let currency of currencies;let i=index;let even=even;let odd=odd;let first=first;let last=last" 
+    [ngClass]="{firstrow:first,lastrow:last,evenrow:even,oddrow:odd,}">
+      <td>{{i+1}}</td>
+      <td>{{currency.Country}}</td>
+      <td>{{currency.Currency}}</td>
+    </tr>
+  </table>
+<router-outlet></router-outlet>
